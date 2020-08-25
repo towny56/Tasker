@@ -1,0 +1,110 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <title> Tasks </title>
+        <link rel = "stylesheet" href = "tasks.css">
+    </head>
+
+    <body>
+        <header id = "header">
+            <div>
+                <img class = "icon" id = "wolf" src = "Pictures/wolf.png">
+                <h1 id = "garib"> GARIB </h1>
+            </div>
+        </header>
+
+        <main>
+            <table id = "iconsTable">
+                <tr>
+                    <th class = "iconHoover">
+                        <div>
+                            <a href="dashboard.php">
+                                <img class = "iconButtons" id = "dashboardButton" src = "Pictures/dashboard.png">
+                            </a>
+                            <br/>
+                            <label> Dashboard </label> 
+                        </div>
+                    </th>
+                    <th class = "iconHoover">
+                        <div>
+                            <a href="tasks.php">
+                                <img class = "iconButtons" id = "tasksButton" src = "Pictures/task.png">
+                            </a>
+                            <br/>
+                            <label> Tasks </label> 
+                        </div>
+                    </th>
+                    <th class = "iconHoover">
+                        <div>
+                            <a href="users.php">
+                                <img class = "iconButtons" id = "usersButton" src = "Pictures/user.png">
+                            </a>
+                            <br/>
+                            <label> Users </label> 
+                        </div>
+                    </th>
+                    <th class = "iconHoover">
+                        <div>
+                            <a href="logout.php">
+                                <img class = "iconButtons" id = "logoutButton" src = "Pictures/logout.png">
+                            </a>
+                            <br/>
+                            <label> Logout </label> 
+                        </div>
+                    </th>
+                </tr>
+            </table>
+
+            <form>
+                <fieldset>                
+                    <h1> Tasks </h1>
+
+                    <table class = "tableFill">
+                        <thead class = "tableHead">
+                            <tr>
+                                <th id = "tableHeadOne"> Number </th>
+                                <th id = "tableHeadTwo"> Subject </th>
+                                <th id = "tableHeadThree"> Title </th>
+                                <th id = "tableHeadFour"> Priority </th>
+                                <th id = "tableHeadFive"> Status </th>
+                                <th id = "tableHeadSix"> Date </th>
+                                <th id = "tableHeadSeven"> Action </th>
+                            </tr>
+                        </thead>
+
+                        <tbody class = "tableBody">
+                            <tr class = "tableRow">
+                                <td class = "textData"> 81548 </td>
+                                <td> Test subject </td>
+                                <td> Test title </td>
+                                <td> Test priority </td>
+                                <td> Test status </td>
+                                <td> Test date </td>
+                                <td> 
+                                    <table class = "buttonsTable">
+                                        <tr>
+                                            <td class = "buttonTableData">
+                                                <button class = "Button" value = "View"> View </button>
+                                            </td>
+                                            <td class = "buttonTableData">
+                                                <button class = "Button" value = "Edit"> Edit </button>
+                                            </td>
+                                            <td class = "buttonTableData">
+                                                <button class = "Button" value = "Delete"> Delete </button>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <button id = "buttonAddTask" class = "Button"> Add task </button>
+
+                </fieldset>
+            </form>
+        </main>
+    </body>
+</html>

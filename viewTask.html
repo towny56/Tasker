@@ -1,0 +1,114 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <title> Tasks </title>
+        <link rel = "stylesheet" href = "tasks.css">
+    </head>
+
+    <body>
+        <header id = "header">
+            <div>
+                <img class = "icon" id = "wolf" src = "Pictures/wolf.png">
+                <h1 id = "garib"> GARIB </h1>
+            </div>
+        </header>
+
+        <main>
+            <table id = "iconsTable">
+                <tr>
+                    <th class = "iconHoover">
+                        <div>
+                            <a href="dashboard.php">
+                                <img class = "iconButtons" id = "dashboardButton" src = "Pictures/dashboard.png">
+                            </a>
+                            <br/>
+                            <label> Dashboard </label> 
+                        </div>
+                    </th>
+                    <th class = "iconHoover">
+                        <div>
+                            <a href="tasks.php">
+                                <img class = "iconButtons" id = "tasksButton" src = "Pictures/task.png">
+                            </a>
+                            <br/>
+                            <label> Tasks </label> 
+                        </div>
+                    </th>
+                    <th class = "iconHoover">
+                        <div>
+                            <a href="users.php">
+                                <img class = "iconButtons" id = "usersButton" src = "Pictures/user.png">
+                            </a>
+                            <br/>
+                            <label> Users </label> 
+                        </div>
+                    </th>
+                    <th class = "iconHoover">
+                        <div>
+                            <a href="logout.php">
+                                <img class = "iconButtons" id = "logoutButton" src = "Pictures/logout.png">
+                            </a>
+                            <br/>
+                            <label> Logout </label> 
+                        </div>
+                    </th>
+                </tr>
+            </table>
+
+            <form method = "POST",  action = "registration.php">
+                <fieldset>                
+                    <h1> Details for the chosen task </h1>
+    
+                    <p>
+                        <label for = "Number"> Number: </label>
+                        <input type = "text" name = "number" placeholder = "Number" readonly>
+                    </p>
+                    <p>
+                        <label for = "subject"> Subject: </label>
+                        <input type = "text" name = "subject" placeholder = "Subject" readonly>
+                    </p>
+                    <p>
+                        <label for = "title"> Title: </label>
+                        <input type = "text" name = "title" placeholder = "Title" readonly>
+                    </p>
+                    <p>
+                        <label for = "description"> Description </label>
+                        <input type = "textarea" name = "description" placeholder = "Description" readonly>
+                    </p>
+                    <p>
+                        <label for = "priority"> Priority </label>
+                        <input type = "text" name = "priority" placeholder = "Priority" readonly>
+                    </p>
+                    <p>
+                        <label for = "status"> Status </label>
+                        <input type = "text" name = "status" placeholder = "Status">
+                    </p>
+                    <p>
+                        <label for = "date"> Date </label>
+                        <input type = "date" name = "date" placeholder = "Date" readonly>
+                    </p>
+    
+                    <button class = "Button" type = "submit" value = "Register"> Close the task</button>
+
+                </fieldset>
+            </form>
+
+            <table id = "iconsTable">
+                <tr>
+                    <th class = "iconHoover">
+                        <div>
+                            <a href="tasksUser.php">
+                                <img class = "iconButtons" id = "dashboardButton" src = "Pictures/back.png">
+                            </a>
+                            <br/>
+                            <label> Back </label> 
+                        </div>
+                    </th>
+                </tr>
+            </table>
+
+        </main>
+    </body>
+</html>

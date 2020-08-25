@@ -1,0 +1,240 @@
+* {box-sizing: border-box;}
+
+body {
+    background-color: rgb(172, 172, 172);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px 40px 20px 40px;
+    font-size: 18px;
+    color: rgb(220, 221, 221);
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: #175566;
+}
+
+.textView {
+    color: black;
+}
+
+form {
+    max-width: 95%;
+    margin: 40px auto;
+    padding: 10px 10px;
+    background: rgb(220, 221, 221);
+    border-radius: 7px;
+}
+
+.formButton{
+    max-width: 500px;
+    margin: 0px auto;
+    padding: 0px 0px 0px 0px;
+    background: rgb(220, 221, 221);
+    border-radius: 7px;
+}
+
+.taskViewForm{
+    max-width: 50%;
+}
+
+#garib {
+    color: rgb(220, 221, 221);
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    border-radius: 7px;    
+}
+
+textarea {
+    width: 100%;
+    height: 80px;
+}
+
+#iconsTable {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.iconHoover {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    color: rgb(220, 221, 221);
+}
+
+.iconHoover:hover {
+    box-shadow: 0 0 2px 1px #175566;
+}
+
+.Button {
+    background-color: #175566;
+    color: #E1E2E2;
+    border-radius: 7px;    
+    padding: 10px 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+button:hover {
+    color: #175566;
+    background: rgb(172, 172, 172);
+    border-radius: 7px;
+}
+
+.lableFields {
+    color: #175566;
+    text-align: left;
+}
+
+img {
+    width: 90px;
+    height: 90px;
+    align-self: center;
+}
+
+.icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    /*width: 50%;*/
+}
+
+.tableFill {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 50px;
+    border: 2px solid rgb(172, 172, 172);
+    border-collapse: collapse; 
+    border-spacing: 0; 
+    table-layout: fixed;
+}
+
+.buttonsTable {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.buttonTableData {
+    border: 0px;
+}
+
+thead {
+    border-radius: 5px;
+    background-color: #175566;
+    border-collapse: collapse;
+    color: rgb(220, 221, 221);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: bold;
+    height: 40px;	
+}
+
+tbody {
+    color: #175566;
+    border-collapse: collapse;
+    height: 40px;
+}
+
+tr {
+    border: 2px solid rgb(172, 172, 172);
+    border-collapse: collapse;
+    text-align: center;
+    height: 40px;
+}
+
+.tableRow:hover {
+    box-shadow: 0 0 2px 2px #175566;
+}
+
+td {
+    border: 2px solid rgb(172, 172, 172);
+    border-collapse: collapse;
+    text-align: center;
+    height: 40px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+th {
+    border: 2px solid rgb(172, 172, 172);
+    border-collapse: collapse;
+    text-align: center;
+    height: 40px;
+}
+
+#tableHeadOne {
+    width: 10%;
+}
+
+#tableHeadTwo {
+    width: 20%;
+}
+
+#tableHeadThree {
+    width: 20%;
+}
+
+#tableHeadFour {
+    width: 10%;
+}
+
+#tableHeadFive {
+    width: 10%;
+}
+
+#tableHeadSix {
+    width: 10%;
+}
+
+#tableHeadSeven {
+    width: 20%;
+}
+
+#buttonAddTask {
+    margin-top: 30px;
+}
+
+.selectStyleClass {
+    display: block;
+	font-size: 13px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: 500;
+	color: black;
+	padding: 5px 5px 5px 5px;
+	width: 100%;
+	max-width: 100%;
+    border: 2px solid rgb(172, 172, 172);
+	border-radius: 7px;
+	-webkit-appearance: none;
+	appearance: none;
+	background-color: #fff;
+	background-repeat: no-repeat, repeat;
+	background-position: right .7em top 50%, 0 0;
+    background-size: .65em auto, 100%;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+	  linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
+}
+
+/*
+tr:nth-child(even) td { 
+    background: rgb(172, 172, 172); 
+    color: #175566;
+} 
+
+tr:nth-child(odd) td { 
+    background: rgb(220, 221, 221); 
+    color: #175566;
+}  
+*/

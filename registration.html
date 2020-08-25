@@ -1,0 +1,49 @@
+<!doctype html>
+
+<html>
+
+    <head>
+        <meta charset = "UTF-8">
+        <title> Registration </title>
+        <link rel = "stylesheet" href = "login.css">
+    </head>
+
+    <body>
+        <header id = "header">
+            <div>
+                <img class = "icon" id = "wolf" src = "Pictures/wolf.png">
+                <h1 id = "garib"> GARIB </h1>
+            </div>
+        </header>
+
+        <form method = "POST",  action = "registration.php">
+            <fieldset>                
+                <h1> Register yourself </h1>
+
+                <p>
+                    <label for = "username"> Username: </label>
+                    <input type = "text" name = "username" placeholder = "Username">
+                </p>
+                <p>
+                    <label for = "password"> Password: </label>
+                    <input type = "password" name = "password" placeholder = "Password">
+                </p>
+                <p>
+                    <label for = "confirmPassword"> Confirm password: </label>
+                    <input type = "password" name = "confirmPassword" placeholder = "Confirm password">
+                </p>
+                <p>
+                    <label for = "email"> Email: </label>
+                    <input type = "email" name = "email" placeholder = "Email">
+                </p>
+                <p>
+                    <label for = "facultyNumber"> Faculty number: </label>
+                    <input type = "text" name = "facultyNumber" placeholder = "Faculty number">
+                </p>
+
+                <button class = "Button" type = "submit" value = "Register"> Register </button>
+            </fieldset>
+        </form>
+    </body>
+
+</html>

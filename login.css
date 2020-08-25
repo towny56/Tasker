@@ -1,0 +1,94 @@
+* {box-sizing: border-box;}
+
+body {
+    background-color: rgb(172, 172, 172);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px 40px 20px 40px;
+    font-size: 18px;
+    color: #175566;
+}
+
+form {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 10px 10px;
+    background: rgb(220, 221, 221);
+    border-radius: 7px;
+}
+
+.formLinkButton{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.formButton{
+    max-width: 500px;
+    margin: 0px auto;
+    padding: 0px 0px 0px 0px;
+    background: rgb(220, 221, 221);
+    border-radius: 7px;
+}
+
+h1 {
+    text-align: center;
+    color: #175566;
+}
+
+#garib {
+    color: rgb(220, 221, 221);
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    border-radius: 7px;    
+}
+
+textarea {
+    width: 100%;
+    height: 80px;
+}
+
+.Button {
+    background-color: #175566;
+    color: #E1E2E2;
+    border-radius: 7px;    
+    padding: 10px 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.button {
+    background-color: #175566;
+    color: #E1E2E2;
+    border-radius: 7px;    
+    padding: 10px 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button:hover {
+    color: #175566;
+    background: rgb(172, 172, 172);
+    border-radius: 7px;
+}
+
+img {
+    width: 90px;
+    height: 90px;
+    align-self: center;
+}
+
+.icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    /*width: 50%;*/
+}
